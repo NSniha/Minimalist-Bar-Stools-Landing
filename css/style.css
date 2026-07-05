@@ -182,14 +182,14 @@ img {
 }
 
 .hero-subtitle {
-  position: relative;
-  z-index: 10;
-  text-align: center;
-  font-size: clamp(31px, 2.68vw, 40px);
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: -0.055em;
-  white-space: nowrap;
+    position: relative;
+    z-index: 10;
+    text-align: center;
+    font-size: clamp(31px, 2.68vw, 40px);
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: -0.1px;
+    white-space: nowrap;
 }
 
 .hero-title {
