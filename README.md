@@ -1,3 +1,5 @@
+<img width="1280" height="800" alt="preview" src="https://github.com/user-attachments/assets/37169342-f18f-48c7-bccd-21018ed72f0a" />
+
 # StoolMart — Minimalist Bar Stools Landing Page
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
