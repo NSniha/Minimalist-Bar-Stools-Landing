@@ -1,11 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Stoolmart | Minimalist Bar Stools</title>
+  <meta name="description" content="Discover minimalist wooden, metal, and swivel bar stools designed for modern interiors." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
-    
+  <!-- Hero Section -->
+  <section class="stool-hero" id="home">
+    <a href="#home" class="brand-badge" aria-label="Stoolmart Home">STOOLMART</a>
+
+    <div class="menu-overlay" data-menu-overlay></div>
+
+    <!-- Header -->
+    <header class="hero-header">
+      <nav class="desktop-nav" aria-label="Primary navigation">
+        <a href="#home" class="active">Home</a>
+        <span>/</span>
+        <a href="#products">Products</a>
+        <span>/</span>
+        <a href="#about">About Us</a>
+        <span>/</span>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="header-actions">
+        <a href="#signin" class="signin-btn">Sign In</a>
+
+        <button class="cart-btn" type="button" aria-label="Open shopping cart">
+          <ion-icon name="bag-handle-outline"></ion-icon>
+        </button>
+
+        <button class="mobile-toggle" type="button" aria-label="Open menu" data-menu-toggle>
+          <ion-icon name="menu-outline" class="menu-icon"></ion-icon>
+          <ion-icon name="close-outline" class="close-icon"></ion-icon>
+        </button>
+      </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <aside class="mobile-menu" data-mobile-menu>
+      <div class="mobile-menu-head">
+        <span>STOOLMART</span>
+        <button type="button" aria-label="Close menu" data-menu-close>
+          <ion-icon name="close-outline"></ion-icon>
+        </button>
+      </div>
+
+      <nav class="mobile-nav" aria-label="Mobile navigation">
+        <a href="#home" class="active">
+          <span>Home</span>
+          <ion-icon name="arrow-forward-outline"></ion-icon>
+        </a>
+        <a href="#products">
+          <span>Products</span>
+          <ion-icon name="arrow-forward-outline"></ion-icon>
+        </a>
+        <a href="#about">
+          <span>About Us</span>
+          <ion-icon name="arrow-forward-outline"></ion-icon>
+        </a>
+        <a href="#contact">
+          <span>Contact</span>
+          <ion-icon name="arrow-forward-outline"></ion-icon>
+        </a>
+      </nav>
+
+      <a href="#products" class="mobile-order">
+        Order Now
+        <ion-icon name="bag-add-outline"></ion-icon>
+      </a>
+    </aside>
+
+    <main class="hero-container">
+      <p class="hero-subtitle reveal-item">Elevate Your Space with Minimalist Bar</p>
+
+      <h1 class="hero-title reveal-item">STOOLS</h1>
+
+      <div class="hero-layout">
+        <article class="hero-left reveal-item">
+          <p class="hero-intro">
+            Simplicity is the ultimate sophistication. Introducing our collection of minimal bar stools.
+          </p>
+
+          <div class="angled-tags" id="products">
+            <button class="tag-pill tag-pill-one" type="button">Wooden Barstools</button>
+            <button class="tag-pill tag-pill-two" type="button">Metal Bar Stools</button>
+            <button class="tag-pill tag-pill-three" type="button">Swivel Bar Stools</button>
+
+            <img src="images/mini-stool.png" alt="Small mint stool" class="mini-stool" />
+          </div>
+        </article>
+
+        <figure class="hero-product reveal-item">
+          <span class="product-circle"></span>
+          <img src="images/main-stool.png" alt="Orange wooden bar stool" class="main-stool" />
+        </figure>
+
+        <article class="hero-right reveal-item" id="about">
+          <figure class="preview-card">
+            <img src="images/side-stool.png" alt="Pink wooden bar stool" />
+          </figure>
+
+          <div class="collection-copy">
+            <h2>Explore our collection</h2>
+            <p>
+              Welcome to stool mart, where simplicity meets sophistication. Explore our curated collection of minimalist bar stools designed to transform your living spaces.
+            </p>
+          </div>
+        </article>
+      </div>
+
+      <a href="#products" class="order-btn reveal-item">
+        Order Now
+        <ion-icon name="bag-add-outline"></ion-icon>
+      </a>
+    </main>
+  </section>
+
+  <script type="module" src="https://unpkg.com/ionicons@7.4.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.4.0/dist/ionicons/ionicons.js"></script>
+  <script src="js/script.js"></script>
 </body>
 </html>
